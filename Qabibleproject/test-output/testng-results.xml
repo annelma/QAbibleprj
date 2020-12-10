@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77036" started-at="2020-12-10T02:50:32Z" finished-at="2020-12-10T02:51:49Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20024" started-at="2020-12-10T02:50:32Z" finished-at="2020-12-10T02:50:52Z">
+      <class name="com.Test.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Test.LoginTest@7cd62f43]" name="beforeClass" is-config="true" duration-ms="16591" started-at="2020-12-10T02:50:32Z" finished-at="2020-12-10T02:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.Test.LoginTest@7cd62f43]" name="f" duration-ms="580" started-at="2020-12-10T02:50:52Z" data-provider="dp" finished-at="2020-12-10T02:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Test.LoginTest@7cd62f43]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-10T02:50:52Z" finished-at="2020-12-10T02:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Test.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="29719" started-at="2020-12-10T02:50:54Z" finished-at="2020-12-10T02:51:23Z">
+      <class name="com.Test.ClientTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Test.ClientTest@2f686d1f]" name="beforeClass" is-config="true" duration-ms="9921" started-at="2020-12-10T02:50:54Z" finished-at="2020-12-10T02:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.Test.ClientTest@2f686d1f]" name="Login" duration-ms="824" started-at="2020-12-10T02:51:03Z" finished-at="2020-12-10T02:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="verifyview()[pri:2, instance:com.Test.ClientTest@2f686d1f]" name="verifyview" duration-ms="9069" started-at="2020-12-10T02:51:04Z" finished-at="2020-12-10T02:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyview -->
+        <test-method status="PASS" signature="verifyedit()[pri:3, instance:com.Test.ClientTest@2f686d1f]" name="verifyedit" duration-ms="5004" started-at="2020-12-10T02:51:13Z" finished-at="2020-12-10T02:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyedit -->
+        <test-method status="PASS" signature="verifysearch()[pri:4, instance:com.Test.ClientTest@2f686d1f]" name="verifysearch" duration-ms="4855" started-at="2020-12-10T02:51:18Z" finished-at="2020-12-10T02:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Test.ClientTest@2f686d1f]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-10T02:51:23Z" finished-at="2020-12-10T02:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Test.ClientTest -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="25753" started-at="2020-12-10T02:51:23Z" finished-at="2020-12-10T02:51:49Z">
+      <class name="com.Test.CreateClientTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Test.CreateClientTest@e45f292]" name="beforeClass" is-config="true" duration-ms="9765" started-at="2020-12-10T02:51:23Z" finished-at="2020-12-10T02:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Test.CreateClientTest@e45f292]" name="f" duration-ms="15696" started-at="2020-12-10T02:51:33Z" data-provider="dp" finished-at="2020-12-10T02:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ann]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chalakudy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401501]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[234567]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8529632]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8529632]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[852123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Test.CreateClientTest@e45f292]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-12-10T02:51:49Z" finished-at="2020-12-10T02:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Test.CreateClientTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
